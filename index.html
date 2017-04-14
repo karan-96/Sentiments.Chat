@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Chat application with Node and Sockets</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/jquery.emojipicker.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="/css/jquery.cxdialog.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/jquery.emojipicker.a.css">
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.emojis.js"></script>
+    <script src="/js/jquery.cxdialog.js"></script>
+    <script type="text/javascript" src="/js/jquery.emojipicker.js"></script>
+    <script src="/js/client.js"></script>
+
+
+</head>
+
+<body>
+    <!--Message box: To show the sent/received messages-->
+    <div style="margin: 10%">
+    <div id="msgBox" style="height: 200px; width: 400px; border: 1px solid blue; overflow: auto;">
+
+    </div>
+    <!--Textbox: to enter the message text-->
+    <textarea id="msg" style="width:300px" data-emojiable="true"/></textarea>
+    <!--Send: A button to send the message to others-->
+      <a class="btn btn-primary send" href="javascript:;">Send</a>
+    <br/>
+    <div id="status"></div>
+  </div>
+
+
+</body>
+
+</html>
