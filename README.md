@@ -11,7 +11,7 @@ Pre-requisites - npm and nodejs should be installed
 Steps to start -
 
 1.Clone the repository          
-2.cd ChatApp-With-Sentimental-Analysis        
+2.cd Sentiments.Chat        
 3.npm install             
 4.node chatapp                
 
